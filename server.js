@@ -8,7 +8,7 @@ const wss = new WebSocketServer({ port: PORT });
 
 const world = new World();
 
-console.log("SixSevenCraft server running on port", PORT);
+console.log("WebCraft server running on port", PORT);
 
 wss.on("connection", socket => {
     let playerId = null;
